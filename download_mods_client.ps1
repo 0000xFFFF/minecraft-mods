@@ -1,4 +1,3 @@
-# Disable progress bars to drastically speed up downloads and prevent console spam
 $ProgressPreference = 'SilentlyContinue'
 
 $modsListUrl = "https://raw.githubusercontent.com/0000xFFFF/minecraft-mods/refs/heads/master/mods_client.txt"
@@ -7,7 +6,8 @@ $tempFile = Join-Path $tempDir "mods_client.txt"
 
 Write-Host "Fetching mods list..."
 try {
-    Invoke-WebRequest -Uri $modsListUrl -OutFile $tempFile -UseBasicParsing
+    $webClient = New-Object System.Net.WebClient
+    $webClient.DownloadFile($modsListUrl, $tempFile)
 } 
 catch {
     Write-Host "Error: Failed to download mods list from $modsListUrl" -ForegroundColor Red
@@ -23,13 +23,12 @@ foreach ($line in Get-Content $tempFile) {
     if (-not $line -or $line.StartsWith("#")) { continue }
 
     try {
-        # Parse URL, get filename, and decode URL-encoded characters (%2B, %20, etc.)
         $uri = [System.Uri]$line
         $filename = [System.IO.Path]::GetFileName($uri.AbsolutePath)
         $filename = [System.Net.WebUtility]::UrlDecode($filename)
 
         Write-Host "Downloading: $filename"
-        Invoke-WebRequest -Uri $line -OutFile $filename -UseBasicParsing
+        $webClient.DownloadFile($line, $filename)
         Write-Host "  [OK] Saved to $filename" -ForegroundColor Green
     } 
     catch {
