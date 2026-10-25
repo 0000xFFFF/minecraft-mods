@@ -1,1 +1,6 @@
 https://cdn.modrinth.com/data/1bokaNcj/versions/eUEhnw8G/xaerominimap-fabric-26.3-26.6.1.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
+https://cdn.modrinth.com/data/AANobbMI/versions/bAZQdGpg/sodium-fabric-0.9.2%2Bmc26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
+https://cdn.modrinth.com/data/mOgUt4GM/versions/kyy7dbrZ/modmenu-21.0.0.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
+https://cdn.modrinth.com/data/OSQ8mw2r/versions/q9vZmPqg/explosive-enhancement-1.4.2-26.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
+https://cdn.modrinth.com/data/PLAGcSFJ/versions/QC0b0jJo/ParticleEffects-1.6.0%2B26.3%2Bfabric.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
+https://cdn.modrinth.com/data/zrzYrlm0/versions/xFTfXEwk/spawnanimations-v1.11.6-mc1.17-26.3.9-mod.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric

@@ -1,6 +1,7 @@
-https://cdn.modrinth.com/data/O5VsIpQY/versions/GJJzMDHS/adventure-platform-fabric-7.2.0.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
-https://cdn.modrinth.com/data/Y8o1j1Sf/versions/XmBLuWSg/better-fabric-console-mc26.3-2.1.1.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
-https://cdn.modrinth.com/data/swbUV1cr/versions/SX74rxzP/bluemap-5.29-fabric.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/6VdDUivB/versions/KANmt7ie/essential_commands-0.42.0-mc26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
-https://cdn.modrinth.com/data/eXts2L7r/versions/lXytLqWj/placeholder-api-3.2.0%2B26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/gvQqBUqZ/versions/xS0Q8LSi/lithium-fabric-0.26.2%2Bmc26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
+https://cdn.modrinth.com/data/O5VsIpQY/versions/GJJzMDHS/adventure-platform-fabric-7.2.0.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
+https://cdn.modrinth.com/data/RJ4U0qmn/versions/CfdKrTCU/serversidehorror-26.3-fabric-5.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
+https://cdn.modrinth.com/data/swbUV1cr/versions/SX74rxzP/bluemap-5.29-fabric.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
+https://cdn.modrinth.com/data/xjqgkruM/versions/E8Ii18nO/craft-enchanted-golden-apple-v1.1.1.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
+https://cdn.modrinth.com/data/Y8o1j1Sf/versions/XmBLuWSg/better-fabric-console-mc26.3-2.1.1.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
