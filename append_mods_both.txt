@@ -34,5 +34,3 @@ https://cdn.modrinth.com/data/rlloIFEV/versions/SmhjfeWr/travelersbackpack-fabri
 https://cdn.modrinth.com/data/RiN8rDVs/versions/ZICP89ny/worldweaver-26.301.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/8O0Adq7w/versions/lhvXpLay/wunderlib-26.301.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/II7t6llZ/versions/23VeM3qz/wwoo-fabric-26.3-3.0.1.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
-https://cdn.modrinth.com/data/1bokaNcj/versions/eUEhnw8G/xaerominimap-fabric-26.3-26.6.1.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
-

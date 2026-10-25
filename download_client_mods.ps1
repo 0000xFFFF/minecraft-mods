@@ -1,4 +1,4 @@
-$modsListUrl = "https://raw.githubusercontent.com/0000xFFFF/minecraft-mods/refs/heads/master/client_mods.txt"
+$modsListUrl = "https://raw.githubusercontent.com/0000xFFFF/minecraft-mods/refs/heads/master/mods_client.txt"
 $tempFile = Join-Path $env:TEMP "mods.txt"
 
 Write-Host "Fetching mods list..."

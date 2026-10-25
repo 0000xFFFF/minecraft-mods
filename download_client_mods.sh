@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-MODS_LIST_URL="https://raw.githubusercontent.com/0000xFFFF/minecraft-mods/refs/heads/master/client_mods.txt"
+MODS_LIST_URL="https://raw.githubusercontent.com/0000xFFFF/minecraft-mods/refs/heads/master/mods_client.txt"
 
 # Create a temporary file for the mod list
 TEMP_FILE=$(mktemp)
