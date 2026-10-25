@@ -3,7 +3,6 @@ https://cdn.modrinth.com/data/5ibSyLAz/versions/SJkiyopK/inventorysorter-fabric-
 https://cdn.modrinth.com/data/8O0Adq7w/versions/lhvXpLay/wunderlib-26.301.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/8oi3bsk5/versions/aGE3hYAA/Terralith_26.3_v2.6.5%2B26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/9s6osm5g/versions/fg2uyxOW/cloth-config-fabric-26.3.159.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
-https://cdn.modrinth.com/data/A0W9tMly/versions/fl292C0i/aitk-1.2.2-fabric%2B26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/BgNRHReB/versions/DgMxtpAh/bclib-26.301.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/CDaJ8xGu/versions/MTTscBkJ/DistantFriends-fabric-26.3-0.17.0.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/cl223EMc/versions/rWxmPrGC/cristellib-fabric-26.3-3.1.13.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
