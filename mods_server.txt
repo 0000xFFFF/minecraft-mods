@@ -5,7 +5,6 @@ https://cdn.modrinth.com/data/8O0Adq7w/versions/lhvXpLay/wunderlib-26.301.2.jar?
 https://cdn.modrinth.com/data/8oi3bsk5/versions/aGE3hYAA/Terralith_26.3_v2.6.5%2B26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/9s6osm5g/versions/fg2uyxOW/cloth-config-fabric-26.3.159.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/A0W9tMly/versions/fl292C0i/aitk-1.2.2-fabric%2B26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
-https://cdn.modrinth.com/data/AANobbMI/versions/bAZQdGpg/sodium-fabric-0.9.2%2Bmc26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/BgNRHReB/versions/DgMxtpAh/bclib-26.301.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/CDaJ8xGu/versions/MTTscBkJ/DistantFriends-fabric-26.3-0.17.0.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/cl223EMc/versions/rWxmPrGC/cristellib-fabric-26.3-3.1.13.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
@@ -21,13 +20,10 @@ https://cdn.modrinth.com/data/H1POBnTh/versions/RBo0UYF5/deadly-deadly-dungeon-1
 https://cdn.modrinth.com/data/HXF82T3G/versions/Hhn5UJ4L/BiomesOPlenty-fabric-26.3-26.3.0.0.7.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/II7t6llZ/versions/23VeM3qz/wwoo-fabric-26.3-3.0.1.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/kkmrDlKT/versions/xirJYe1V/TerraBlender-fabric-26.3-26.3.0.0.9.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
-https://cdn.modrinth.com/data/mOgUt4GM/versions/kyy7dbrZ/modmenu-21.0.0.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/MpzVLzy5/versions/UdlwCBiL/better-nether-26.301.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/O5VsIpQY/versions/GJJzMDHS/adventure-platform-fabric-7.2.0.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/ohNO6lps/versions/JpKvrr9J/ForgeConfigAPIPort-v26.3.1-mc26.3.x-Fabric.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
-https://cdn.modrinth.com/data/OSQ8mw2r/versions/q9vZmPqg/explosive-enhancement-1.4.2-26.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/P7dR8mSH/versions/EQKgpeKu/fabric-api-0.165.0%2B26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
-https://cdn.modrinth.com/data/PLAGcSFJ/versions/QC0b0jJo/ParticleEffects-1.6.0%2B26.3%2Bfabric.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/RiN8rDVs/versions/ZICP89ny/worldweaver-26.301.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/RJ4U0qmn/versions/CfdKrTCU/serversidehorror-26.3-fabric-5.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/rlloIFEV/versions/SmhjfeWr/travelersbackpack-fabric-26.3-11.4.1.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
@@ -39,4 +35,3 @@ https://cdn.modrinth.com/data/XaDC71GB/versions/pZgI6b2t/lithostitched-2.0.6-fab
 https://cdn.modrinth.com/data/xjqgkruM/versions/E8Ii18nO/craft-enchanted-golden-apple-v1.1.1.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/Y8o1j1Sf/versions/XmBLuWSg/better-fabric-console-mc26.3-2.1.1.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/ZK4bBM3B/versions/J10h9uWE/more-babies-26.3%2B3.1.2-fabric.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
-https://cdn.modrinth.com/data/zrzYrlm0/versions/xFTfXEwk/spawnanimations-v1.11.6-mc1.17-26.3.9-mod.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
