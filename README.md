@@ -1,12 +1,26 @@
 # minecraft-mods
 my minecraft mods
 
-# Linux
+## Client
+
+### Linux
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/0000xFFFF/minecraft-mods/refs/heads/master/download_client_mods.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/0000xFFFF/minecraft-mods/refs/heads/master/download_mods_client.sh)
 ```
 
-# Windows
+### Windows
 ```
-powershell -Command "Invoke-RestMethod -Uri 'https://github.com/0000xFFFF/minecraft-mods/blob/master/download_client_mods.ps1' | Invoke-Expression"
+powershell -Command "Invoke-RestMethod -Uri 'https://github.com/0000xFFFF/minecraft-mods/blob/master/download_mods_client.ps1' | Invoke-Expression"
 ```
+
+craft-enchanted-golden-apple
+
+
+<details><summary>Server</summary>
+
+## Server
+```
+bash <(curl -sSL https://raw.githubusercontent.com/0000xFFFF/minecraft-mods/refs/heads/master/download_mods_server.sh)
+```
+
+</details>
