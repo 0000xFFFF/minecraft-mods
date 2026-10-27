@@ -29,6 +29,7 @@ https://cdn.modrinth.com/data/mOgUt4GM/versions/kyy7dbrZ/modmenu-21.0.0.jar?mr_d
 https://cdn.modrinth.com/data/MPCX6s5C/versions/EhSk2OTD/notenoughanimations-fabric-1.12.6-mc26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/MpzVLzy5/versions/UdlwCBiL/better-nether-26.301.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/N72bKhby/versions/aTowshL2/enchants-plus-2.1.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
+https://cdn.modrinth.com/data/NcUtCpym/versions/VM8lNSSM/xaeroworldmap-fabric-26.3-1.47.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/ohNO6lps/versions/JpKvrr9J/ForgeConfigAPIPort-v26.3.1-mc26.3.x-Fabric.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/OSQ8mw2r/versions/q9vZmPqg/explosive-enhancement-1.4.2-26.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/P7dR8mSH/versions/EQKgpeKu/fabric-api-0.165.0%2B26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
