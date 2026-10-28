@@ -11,3 +11,4 @@ https://cdn.modrinth.com/data/cGvQGRls/versions/Z3DsEJun/formationsnether-1.0.5b
 https://cdn.modrinth.com/data/OQAgZMH1/versions/PiFoSPXI/MoogsVoyagerStructures-universal-1.21-5.1.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/aKCwCJlY/versions/GjOkOVW4/Structory_26.3_v1.3.18%2B26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/j3FONRYr/versions/5ntmnN83/Structory_Towers_26.3_v1.0.19%2B26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
+https://cdn.modrinth.com/data/vj1HfksH/versions/xoHz8xWH/mineable-spawner-v2.4.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
