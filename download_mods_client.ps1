@@ -1,42 +1,91 @@
+
 $ProgressPreference = 'SilentlyContinue'
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-$modsListUrl = "https://raw.githubusercontent.com/0000xFFFF/minecraft-mods/refs/heads/master/mods_client.txt"
-$tempDir = [System.IO.Path]::GetTempPath()
-$tempFile = Join-Path $tempDir "mods_client.txt"
+$ModsListUrls = @(
+    "https://raw.githubusercontent.com/0000xFFFF/minecraft-mods/refs/heads/master/list_mods_both.txt",
+    "https://raw.githubusercontent.com/0000xFFFF/minecraft-mods/refs/heads/master/list_mods_client_only.txt"
+)
 
-Write-Host "Fetching mods list..."
-try {
-    $webClient = New-Object System.Net.WebClient
-    $webClient.DownloadFile($modsListUrl, $tempFile)
-} 
-catch {
-    Write-Host "Error: Failed to download mods list from $modsListUrl" -ForegroundColor Red
-    exit 1
-}
+$SkipExisting = $true
+$DownloadDir = (Get-Location).Path
 
-Write-Host "Starting downloads..."
+$tempFile = Join-Path ([System.IO.Path]::GetTempPath()) "minecraft_mods_list.txt"
 
-foreach ($line in Get-Content $tempFile) {
-    $line = $line.Trim()
-    
-    # Skip empty lines or comments
-    if (-not $line -or $line.StartsWith("#")) { continue }
+foreach ($url in $ModsListUrls) {
+    Write-Host "`nFetching mods list from $url..." -ForegroundColor Cyan
 
     try {
-        $uri = [System.Uri]$line
-        $filename = [System.IO.Path]::GetFileName($uri.AbsolutePath)
-        $filename = [System.Net.WebUtility]::UrlDecode($filename)
-
-        Write-Host "Downloading: $filename"
-        $webClient.DownloadFile($line, $filename)
-        Write-Host "  [OK] Saved to $filename" -ForegroundColor Green
-    } 
+        Invoke-WebRequest -Uri $url -OutFile $tempFile -ErrorAction Stop
+    }
     catch {
-        Write-Host "  [ERROR] Failed to download: $_" -ForegroundColor Red
+        Write-Host "[ERROR] Failed to fetch mod list." -ForegroundColor Red
+        Write-Host $_.Exception.ToString() -ForegroundColor DarkRed
+        continue
+    }
+
+    foreach ($line in Get-Content $tempFile) {
+        $line = $line.Trim()
+
+        if (-not $line -or $line.StartsWith("#")) {
+            continue
+        }
+
+        try {
+            $uri = [System.Uri]$line
+
+            if (-not $uri.IsAbsoluteUri -or $uri.Scheme -notin @("http", "https")) {
+                throw "Not a valid HTTP/HTTPS URL: $line"
+            }
+
+            $filename = [System.IO.Path]::GetFileName(
+                [System.Net.WebUtility]::UrlDecode($uri.AbsolutePath)
+            )
+
+            if ([string]::IsNullOrWhiteSpace($filename)) {
+                throw "Could not extract a filename from URL: $line"
+            }
+
+            # Replace characters Windows does not allow in filenames.
+            foreach ($char in [System.IO.Path]::GetInvalidFileNameChars()) {
+                $filename = $filename.Replace([string]$char, "_")
+            }
+
+            $destinationPath = Join-Path $DownloadDir $filename
+
+            if ($SkipExisting -and (Test-Path -LiteralPath $destinationPath)) {
+                Write-Host "[SKIP] $filename already exists." -ForegroundColor Yellow
+                continue
+            }
+
+            Write-Host "[DOWNLOAD] $filename" -ForegroundColor Cyan
+
+            Invoke-WebRequest `
+                -Uri $uri.AbsoluteUri `
+                -OutFile $destinationPath `
+                -ErrorAction Stop
+
+            Write-Host "[OK] Saved to $destinationPath" -ForegroundColor Green
+        }
+        catch {
+            Write-Host "[ERROR] Failed to download: $line" -ForegroundColor Red
+            Write-Host "Reason: $($_.Exception.Message)" -ForegroundColor DarkRed
+
+            if ($_.Exception.InnerException) {
+                Write-Host "Details: $($_.Exception.InnerException.Message)" `
+                    -ForegroundColor DarkYellow
+            }
+
+            if ($destinationPath -and
+                (Test-Path -LiteralPath $destinationPath) -and
+                -not $SkipExisting) {
+                Remove-Item -LiteralPath $destinationPath -Force `
+                    -ErrorAction SilentlyContinue
+            }
+        }
     }
 }
 
-# Clean up temp file
-if (Test-Path $tempFile) { Remove-Item $tempFile }
+Remove-Item -LiteralPath $tempFile -Force -ErrorAction SilentlyContinue
+Write-Host "`nDone!" -ForegroundColor Green
 
-Write-Host "Done!"
