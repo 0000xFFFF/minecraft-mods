@@ -11,3 +11,4 @@ https://cdn.modrinth.com/data/u6dRKJwZ/versions/Zebwcvua/jei-26.3-fabric-31.14.0
 https://cdn.modrinth.com/data/yBW8D80W/versions/rylKnJ4M/lambdynamiclights-4.13.0%2B26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/MPCX6s5C/versions/EhSk2OTD/notenoughanimations-fabric-1.12.6-mc26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/tJflAtvJ/versions/RNWNxB9a/simple-armor-hud-26.3-1.10.0.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
+https://cdn.modrinth.com/data/vtsGVHan/versions/4NXcYLDk/sorted-fabric-0.1.38%2B26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
