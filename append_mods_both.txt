@@ -34,3 +34,4 @@ https://cdn.modrinth.com/data/tPe4xnPd/versions/Ci7Ii1nY/formations-1.0.4-fabric
 https://cdn.modrinth.com/data/QAGBst4M/versions/vbwu116x/puzzleslib-v26.3.16-mc26.3.x%2Bfabric.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/1oUDhxuy/versions/SkD4H9XM/MoogsStructureLib-fabric-26.3-3.4.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/NcUtCpym/versions/VM8lNSSM/xaeroworldmap-fabric-26.3-1.47.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
+https://cdn.modrinth.com/data/uCdwusMi/versions/TGgEbP9A/DistantHorizons-3.3.4-26.3-fabric-neoforge.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
