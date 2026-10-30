@@ -1,5 +1,4 @@
 https://cdn.modrinth.com/data/3dsI6Hle/versions/jTOAPFV5/stormiespiders-fabric-26.3-3.3.1.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
-https://cdn.modrinth.com/data/5ibSyLAz/versions/SJkiyopK/inventorysorter-fabric-3.0.1%2Bmc26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/8O0Adq7w/versions/lhvXpLay/wunderlib-26.301.2.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/8oi3bsk5/versions/aGE3hYAA/Terralith_26.3_v2.6.5%2B26.3.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
 https://cdn.modrinth.com/data/9s6osm5g/versions/fg2uyxOW/cloth-config-fabric-26.3.159.jar?mr_download_reason=standalone&mr_game_version=26.3&mr_loader=fabric
