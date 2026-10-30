@@ -1,1 +1,1 @@
-- update both scripts to skip existing mods
+https://modrinth.com/plugin/chunky
